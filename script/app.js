@@ -24,7 +24,7 @@ document.querySelector('.btn-roll').addEventListener('click', function() {
     // assigning image to the dice
     var diceBox = document.querySelector('.dice');
     diceBox.style.display = 'block';
-    diceBox.src = 'dice-' + dice + '.png';
+    diceBox.src = 'images/dice-' + dice + '.png';
 
     //set the round score for PLAYERS
     if (dice !== 1) {
